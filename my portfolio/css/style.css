@@ -1,4 +1,13 @@
-
+@media (max-width: 575.98px) {
+    nav div.container{
+        margin-right:25px;
+        margin-left: 25px;
+    }
+}
+div.contfoto img{
+    margin-left: 55px;
+    width: 90px;
+}
 
 nav.nav-transparente{
     padding: 15px 0px;
