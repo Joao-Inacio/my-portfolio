@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 @media (max-width: 575.98px) {
     nav div.container{
         margin-right:25px;
@@ -52,4 +56,20 @@ nav.nav-transparente{
 .myfoto{
     width: 400px;
     height: 400px;
+}
+
+.roxo{
+    background-color:#777BB3;
+}
+.pyazul{
+    background-color: #3776AB;
+}
+.pyama{
+    background-color: #FFD343;
+}
+.w{
+    width: 5%;
+}
+.R{
+    background-color: #3864BA;
 }
