@@ -1,11 +1,24 @@
 html, body {
+    font-family: Merriweather sans-serif ;
     overflow-x: hidden;
 }
 
 @media (max-width: 575.98px) {
+    html, body{
+        text-align: center;
+    }
+    img.myfoto{
+        margin-left: 25px;
+    }
+    div.contfoto{
+        margin-right:50px ;
+    }
     nav div.container{
         margin-right:25px;
         margin-left: 25px;
+    }
+    footer div.contato a{
+        margin-left: 0;
     }
 }
 div.contfoto img{
@@ -72,4 +85,28 @@ nav.nav-transparente{
 }
 .R{
     background-color: #3864BA;
+}
+footer{
+    padding-top: 45px;
+    padding-bottom: 50px;
+    
+
+}
+footer a.rodalink {
+    color: grey;
+    font-size: 30px;
+}
+footer div.contato{
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer div.direitos{
+    margin-left: 0%;
+    text-align: center;
+}
+a.rodalink:hover{
+    color:blue
+}
+footer a:hover{
+    color: grey;
 }
