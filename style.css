@@ -19,14 +19,14 @@ html, body {
         margin-left: 0;
     }
 }
-div.contfoto img{
-    margin-left: 55px;
-    width: 90px;
-}
-
+/* --- Barra de Navegação --- */
 nav.nav-transparente{
     padding: 15px 0px;
     background: rgba(0, 0, 0, 0.5);
+}
+div.contfoto img{
+    margin-left: 55px;
+    width: 90px;
 }
 .navbar-light .navbar-nav .nav-link{
     color: white;
@@ -39,6 +39,7 @@ nav.nav-transparente{
     border-color: rgba(223, 196, 196, 0.904);
     background-color: #ffffff65;
 }
+/* --- Container --- */
 .caixar{
     border-bottom: 1px solid #e5e5e5;
     padding: 60px 0;
