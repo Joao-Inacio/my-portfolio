@@ -1,0 +1,28 @@
+*{
+    overflow: hidden;
+}
+@media (max-width: 575.98px){
+    html,body{
+        text-align: center;
+    }
+}
+
+
+
+
+/* Conteudo do cabeçalho */
+.introducao{
+    padding-top:150px ;
+    text-align: center;
+    height: 450px;
+
+}
+.introducao, .titulo, .subinformacao{
+    background-color: black;
+    color: green;
+}
+.chaves{
+    color:cyan;
+}
+
+
