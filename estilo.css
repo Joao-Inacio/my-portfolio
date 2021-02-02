@@ -11,14 +11,20 @@
 
 
 /* Conteudo do cabeçalho */
+.holograma{
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
 .introducao{
     padding-top:150px ;
     text-align: center;
     height: 450px;
+    z-index: 2;
 
 }
 .introducao, .titulo, .subinformacao{
-    background-color: black;
+    /* background-color: black; */
     color: green;
 }
 .chaves{
