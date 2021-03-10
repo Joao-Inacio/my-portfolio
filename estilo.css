@@ -7,25 +7,19 @@
     }
 }
 
-
-
-
 /* Conteudo do cabeçalho */
-.holograma{
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-}
-.introducao{
-    padding-top:150px ;
-    text-align: center;
-    height: 450px;
-    z-index: 2;
 
+.infomacao{
+    padding-top: 150px;
+    height: 500px;
+    text-align: center;
+    background-image: url(img/4884841.jpg);
+    background-position:center;
+    background-size: cover;
 }
 .introducao, .titulo, .subinformacao{
     /* background-color: black; */
-    color: green;
+    color:white;
 }
 .chaves{
     color:cyan;
