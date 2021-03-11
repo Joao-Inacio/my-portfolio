@@ -1,5 +1,8 @@
 *{
-    overflow: hidden;
+    overflow-x:hidden ;
+}
+h1, .titulo{
+    overflow-y: hidden;
 }
 @media (max-width: 575.98px){
     html,body{
@@ -8,6 +11,13 @@
 }
 
 /* Conteudo do cabeçalho */
+img.imgperfil{
+    align-items: center;
+    top: 25px;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
 
 .infomacao{
     padding-top: 150px;
