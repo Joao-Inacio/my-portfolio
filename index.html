@@ -19,7 +19,7 @@
             jQuery(document).ready(function($) {
                 $(".scroll").click(function(event) {
                     event.preventDefault();
-                    $("html,body").animate({scrollTop:$(this.hash).offset().top}, 800);
+                    $("html,body").animate({scrollTop:$(this.hash).offset().top}, 700);
                 })
             })
         </script>
@@ -29,36 +29,34 @@
     <body>
             <!-- Inicio cabecalho -->
             <header>
-                <nav class="navbar navbar-expand-sm navbar-light fixed-top nav-transparente">
-                    <div class="container">
-                        <!-- Logo -->
-                    <a class="navbar-brand text-light" href="">J.I</a>
-                    <!-- Menu Hamburgue -->
-                    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav">
-                        <span class="navbar-toggler-icon "></span>
-                    </button>
-                    <!-- Navegacao -->
-                    <div class="collapse navbar-collapse" id=nav>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#sobre">Sobre</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#habilidade">Trabalhos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#servicos">Habilidades</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scroll" href="#contato">Contato</a>
-                            </li>
-                        </ul>
-                    </div>
-                    </div>
-                </nav>
+                <header>
+                    <nav class="navbar navbar-expand-md navbar-light fixed-top nav-transparente">
+                        <div class="container">
+                            <a class="navbar-brand p-2 " href="">João Inácio</a>
+                            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="True" aria-label="Toggle navigation" >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse " id="nav">
+                                <ul class="navbar-nav nav justify-content-end mb-2  ">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link scroll" aria-current="page" href="#sobre">Sobre</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link scroll" aria-current="page" href="#habilidade">Trabalhos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link scroll" aria-current="page" href="#servicos">Habilidades</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link scroll" aria-current="page" href="#contato">Contato</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 <div class=" intro">
                         <div class="row">
                             <div class="col-md-12 mt-5 pt-5 info">
@@ -68,7 +66,7 @@
                         </div>
                 </div>
             </header>
-            <section class="caixar" id="home">
+            <section class="caixar" id="index.html">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 d-flex">
